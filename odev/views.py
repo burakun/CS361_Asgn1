@@ -6,8 +6,8 @@ import os
 
 def say(request,x):
     s=os.path.dirname(os.path.realpath(x))
-    e="templates"
-    a=open('%s\\%s\\%s'%(s,e,x),'r')
+    c="templates"
+    a=open('%s\\%s\\%s'%(s,c,x),'r')
     b=a.read().splitlines()
     d={}
     for item in b:
